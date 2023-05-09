@@ -1,0 +1,7 @@
+{
+  "name": "RRJapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
