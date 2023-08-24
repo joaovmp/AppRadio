@@ -1,20 +1,70 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+<ion-content class="corpo" [fullscreen]="true">
+  <div><ion-img class="logo"
+    src="../../assets/logoradio-removebg-preview.png"></ion-img></div>
+  <div id="container" class="divButtons">
+    <ion-grid>
+      <iframe style="margin-top:-100px;" width="90%" height="215"
+src="https://www.youtube.com/embed/TY_oYVkfXBU?autoplay=1&mute=1">
+</iframe>
+
+
+      <ion-row class="rowBotao">
+
+        <ion-col>
+          <ion-button class="botao" expand="block">
+            <ion-icon slot="icon-only" name="play"></ion-icon>
+            </ion-button>
+            <span class="tituloBotao">Ao Vivo</span>
+        </ion-col>
+
+        <ion-col>
+          <ion-button class="botao" expand="block">
+            <ion-icon slot="icon-only" name="megaphone"></ion-icon>
+            </ion-button>
+            <span class="tituloBotao">Anuncie</span>
+        </ion-col>
+
+      </ion-row>
+      <ion-row class="rowBotao">
+
+        <ion-col>
+          <ion-button class="botao" expand="block">
+            <ion-icon slot="icon-only" name="heart"></ion-icon>
+            </ion-button>
+            <span class="tituloBotao">Contribua</span>
+        </ion-col>
+
+
+        <ion-col>
+          <ion-button class="botao" expand="block">
+            <ion-icon slot="icon-only" name="chatbubble"></ion-icon>
+            </ion-button>
+            <span class="tituloBotao">Fale Conosco</span>
+        </ion-col>
+
+      </ion-row>
+
+      <ion-row class="socialRow">
+        <ion-col size="2">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </ion-col>
+        <ion-col size="2">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </ion-col>
+        <ion-col size="2">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </ion-col>
+        <ion-col size="2">
+          <ion-icon name="logo-whatsapp"></ion-icon>
+        </ion-col>
+        <ion-col size="2">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </ion-col>
+      </ion-row>
+
+    </ion-grid>
   </div>
 </ion-content>
+
